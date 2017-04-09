@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8D2C90074C68E8178593835 /* Pods_MyVIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A559ACBAB39BCBDDAF794BF9 /* Pods_MyVIT.framework */; };
+		CD267CBA1E9A54E90005DBEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CB91E9A54E90005DBEF /* AppDelegate.swift */; };
+		CD267CBC1E9A54E90005DBEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CBB1E9A54E90005DBEF /* ViewController.swift */; };
+		CD267CBF1E9A54E90005DBEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD267CBD1E9A54E90005DBEF /* Main.storyboard */; };
+		CD267CC21E9A54E90005DBEF /* MyVIT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD267CC01E9A54E90005DBEF /* MyVIT.xcdatamodeld */; };
+		CD267CC41E9A54E90005DBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD267CC31E9A54E90005DBEF /* Assets.xcassets */; };
+		CD267CC71E9A54E90005DBEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD267CC51E9A54E90005DBEF /* LaunchScreen.storyboard */; };
+		CD267CCF1E9A55A10005DBEF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CCE1E9A55A10005DBEF /* LoginViewController.swift */; };
+		CD267CD21E9A57400005DBEF /* URLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CD11E9A57400005DBEF /* URLController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		401729839B34B55B120FA8B6 /* Pods-MyVIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyVIT/Pods-MyVIT.release.xcconfig"; sourceTree = "<group>"; };
+		60C8D6865F38312EA0C7E1F8 /* Pods-MyVIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyVIT/Pods-MyVIT.debug.xcconfig"; sourceTree = "<group>"; };
+		A559ACBAB39BCBDDAF794BF9 /* Pods_MyVIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyVIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD267CB61E9A54E90005DBEF /* MyVIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD267CB91E9A54E90005DBEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD267CBB1E9A54E90005DBEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD267CBE1E9A54E90005DBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD267CC11E9A54E90005DBEF /* MyVIT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyVIT.xcdatamodel; sourceTree = "<group>"; };
+		CD267CC31E9A54E90005DBEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD267CC61E9A54E90005DBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD267CC81E9A54E90005DBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD267CCE1E9A55A10005DBEF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CD267CD11E9A57400005DBEF /* URLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD267CB31E9A54E90005DBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D2C90074C68E8178593835 /* Pods_MyVIT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B53B744CA586862B28A58FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60C8D6865F38312EA0C7E1F8 /* Pods-MyVIT.debug.xcconfig */,
+				401729839B34B55B120FA8B6 /* Pods-MyVIT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		284FE479BA428368667D5CA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A559ACBAB39BCBDDAF794BF9 /* Pods_MyVIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD267CAD1E9A54E90005DBEF = {
+			isa = PBXGroup;
+			children = (
+				CD267CB81E9A54E90005DBEF /* MyVIT */,
+				CD267CB71E9A54E90005DBEF /* Products */,
+				0B53B744CA586862B28A58FB /* Pods */,
+				284FE479BA428368667D5CA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD267CB71E9A54E90005DBEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD267CB61E9A54E90005DBEF /* MyVIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD267CB81E9A54E90005DBEF /* MyVIT */ = {
+			isa = PBXGroup;
+			children = (
+				CD267CD01E9A55A70005DBEF /* Controllers */,
+				CD267CB91E9A54E90005DBEF /* AppDelegate.swift */,
+				CD267CBB1E9A54E90005DBEF /* ViewController.swift */,
+				CD267CBD1E9A54E90005DBEF /* Main.storyboard */,
+				CD267CC31E9A54E90005DBEF /* Assets.xcassets */,
+				CD267CC51E9A54E90005DBEF /* LaunchScreen.storyboard */,
+				CD267CC81E9A54E90005DBEF /* Info.plist */,
+				CD267CC01E9A54E90005DBEF /* MyVIT.xcdatamodeld */,
+			);
+			path = MyVIT;
+			sourceTree = "<group>";
+		};
+		CD267CD01E9A55A70005DBEF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD267CCE1E9A55A10005DBEF /* LoginViewController.swift */,
+				CD267CD11E9A57400005DBEF /* URLController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD267CB51E9A54E90005DBEF /* MyVIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD267CCB1E9A54E90005DBEF /* Build configuration list for PBXNativeTarget "MyVIT" */;
+			buildPhases = (
+				C6DA34F7F5E4935EE0D4C67B /* [CP] Check Pods Manifest.lock */,
+				CD267CB21E9A54E90005DBEF /* Sources */,
+				CD267CB31E9A54E90005DBEF /* Frameworks */,
+				CD267CB41E9A54E90005DBEF /* Resources */,
+				4F83EADCC61F3B07CA805C57 /* [CP] Embed Pods Frameworks */,
+				2FE33B624ACF21E00BBA69F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVIT;
+			productName = MyVIT;
+			productReference = CD267CB61E9A54E90005DBEF /* MyVIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD267CAE1E9A54E90005DBEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GDG;
+				TargetAttributes = {
+					CD267CB51E9A54E90005DBEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD267CB11E9A54E90005DBEF /* Build configuration list for PBXProject "MyVIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD267CAD1E9A54E90005DBEF;
+			productRefGroup = CD267CB71E9A54E90005DBEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD267CB51E9A54E90005DBEF /* MyVIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD267CB41E9A54E90005DBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD267CC71E9A54E90005DBEF /* LaunchScreen.storyboard in Resources */,
+				CD267CC41E9A54E90005DBEF /* Assets.xcassets in Resources */,
+				CD267CBF1E9A54E90005DBEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FE33B624ACF21E00BBA69F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyVIT/Pods-MyVIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F83EADCC61F3B07CA805C57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyVIT/Pods-MyVIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6DA34F7F5E4935EE0D4C67B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD267CB21E9A54E90005DBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD267CCF1E9A55A10005DBEF /* LoginViewController.swift in Sources */,
+				CD267CBC1E9A54E90005DBEF /* ViewController.swift in Sources */,
+				CD267CC21E9A54E90005DBEF /* MyVIT.xcdatamodeld in Sources */,
+				CD267CD21E9A57400005DBEF /* URLController.swift in Sources */,
+				CD267CBA1E9A54E90005DBEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD267CBD1E9A54E90005DBEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD267CBE1E9A54E90005DBEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD267CC51E9A54E90005DBEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD267CC61E9A54E90005DBEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD267CC91E9A54E90005DBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD267CCA1E9A54E90005DBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD267CCC1E9A54E90005DBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C8D6865F38312EA0C7E1F8 /* Pods-MyVIT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdg.MyVIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD267CCD1E9A54E90005DBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401729839B34B55B120FA8B6 /* Pods-MyVIT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdg.MyVIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD267CB11E9A54E90005DBEF /* Build configuration list for PBXProject "MyVIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD267CC91E9A54E90005DBEF /* Debug */,
+				CD267CCA1E9A54E90005DBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD267CCB1E9A54E90005DBEF /* Build configuration list for PBXNativeTarget "MyVIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD267CCC1E9A54E90005DBEF /* Debug */,
+				CD267CCD1E9A54E90005DBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD267CC01E9A54E90005DBEF /* MyVIT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD267CC11E9A54E90005DBEF /* MyVIT.xcdatamodel */,
+			);
+			currentVersion = CD267CC11E9A54E90005DBEF /* MyVIT.xcdatamodel */;
+			path = MyVIT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD267CAE1E9A54E90005DBEF /* Project object */;
+}

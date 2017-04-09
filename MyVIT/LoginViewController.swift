@@ -21,24 +21,41 @@ class LoginViewController: UIViewController {
         let regNo = registrationNumber.text!
         let psswd = password.text!
         
+        // Save registration number and password in UserDefaults
+        let defaults = UserDefaults.standard
+        defaults.set(regNo, forKey: "regNo")
+        defaults.set(psswd, forKey: "psswd")
+        defaults.synchronize()
+        
         let parameters = ["regNo": regNo, "psswd": psswd]
         
         Alamofire.request(loginURL, method: .post, parameters: parameters)
             .responseJSON{ response in
-                if let status = response.response?.statusCode {
-                    switch(status){
-                    case 200:
-                        print("STATUS OK")
-                    case 401:
-                        print("Internal error")
-                    default:
-                        print("Network error")
-                    }
-            
-        }
+                
+                
                 if let result = response.result.value{
+                    
                     let loginData = JSON(result)
-                    print(loginData)
+                    let statusCode = loginData["status"]["code"].int
+                    
+                    //Check if user logged in successfully : 
+                    
+                    if(statusCode==0){
+                        
+                        let vc : AnyObject! = self.storyboard!.instantiateViewController(withIdentifier: "HomeView")
+                        self.show(vc as! UIViewController, sender: vc)
+                        
+                    } else if (statusCode==12){
+                        
+                        print("Invalid credentials")
+                        
+                    } else{
+                        
+                        print("Internal server error")
+                        
+                    }
+                    
+                    
                 }
         
        

@@ -16,6 +16,8 @@
 		CD267CC71E9A54E90005DBEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD267CC51E9A54E90005DBEF /* LaunchScreen.storyboard */; };
 		CD267CCF1E9A55A10005DBEF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CCE1E9A55A10005DBEF /* LoginViewController.swift */; };
 		CD267CD21E9A57400005DBEF /* URLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CD11E9A57400005DBEF /* URLController.swift */; };
+		CD267CD41E9A662A0005DBEF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CD31E9A662A0005DBEF /* HomeViewController.swift */; };
+		CD267CD71E9A6CF90005DBEF /* VarelaRound-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD267CD61E9A6CF90005DBEF /* VarelaRound-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		CD267CC81E9A54E90005DBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD267CCE1E9A55A10005DBEF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CD267CD11E9A57400005DBEF /* URLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLController.swift; sourceTree = "<group>"; };
+		CD267CD31E9A662A0005DBEF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD267CD61E9A6CF90005DBEF /* VarelaRound-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VarelaRound-Regular.otf"; path = "../../../../Downloads/varela-round/VarelaRound-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		CD267CB81E9A54E90005DBEF /* MyVIT */ = {
 			isa = PBXGroup;
 			children = (
+				CD267CD61E9A6CF90005DBEF /* VarelaRound-Regular.otf */,
 				CD267CD01E9A55A70005DBEF /* Controllers */,
 				CD267CB91E9A54E90005DBEF /* AppDelegate.swift */,
 				CD267CBB1E9A54E90005DBEF /* ViewController.swift */,
@@ -100,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				CD267CCE1E9A55A10005DBEF /* LoginViewController.swift */,
+				CD267CD31E9A662A0005DBEF /* HomeViewController.swift */,
 				CD267CD11E9A57400005DBEF /* URLController.swift */,
 			);
 			name = Controllers;
@@ -167,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD267CD71E9A6CF90005DBEF /* VarelaRound-Regular.otf in Resources */,
 				CD267CC71E9A54E90005DBEF /* LaunchScreen.storyboard in Resources */,
 				CD267CC41E9A54E90005DBEF /* Assets.xcassets in Resources */,
 				CD267CBF1E9A54E90005DBEF /* Main.storyboard in Resources */,
@@ -233,6 +240,7 @@
 				CD267CC21E9A54E90005DBEF /* MyVIT.xcdatamodeld in Sources */,
 				CD267CD21E9A57400005DBEF /* URLController.swift in Sources */,
 				CD267CBA1E9A54E90005DBEF /* AppDelegate.swift in Sources */,
+				CD267CD41E9A662A0005DBEF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

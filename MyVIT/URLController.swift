@@ -12,7 +12,7 @@ class URLController {
     static let port = "10443"
     static let baseURL = "https://myffcs.in:"+port+"/campus/vellore"
     let loginURL = baseURL + "/login"
-    static let refreshURL = baseURL + "/refresh"
+    let refreshURL = baseURL + "/refresh"
     
     
 }

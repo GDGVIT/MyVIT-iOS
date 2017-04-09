@@ -47,11 +47,11 @@ class LoginViewController: UIViewController {
                         
                     } else if (statusCode==12){
                         
-                        print("Invalid credentials")
+                        self.view.makeToast("Invalid Credentials")
                         
                     } else{
                         
-                        print("Internal server error")
+                        self.view.makeToast("Internal Server Error")
                         
                     }
                     

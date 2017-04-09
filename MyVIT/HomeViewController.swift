@@ -14,7 +14,38 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var greetingsLabel: UILabel!
     
-   
+    // A function to store all the user data into UserDefaults
+    
+    func storeData(userData: JSON)  {
+        
+        let defaults = UserDefaults.standard
+        defaults.set(userData["name"].string, forKey: "name" )
+        
+        // Set Grade Summary
+        
+        let grades = userData["academic_history"]["grade summary"].dictionaryObject
+        print(type(of: grades))
+        defaults.set(grades, forKey: "grades")
+        
+        /* You can use grades as : let userGrades = defaults.dictionary(forKey: "grades")!
+         -> returns dictionary. 
+         To access S grades : let S_Grades = userGrades["S grades"]!
+ 
+        */
+        //Faculty Advisor Details
+        
+        let facultyDetails = userData["faculty_advisor"]["faculty_det"]
+        defaults.set(userData["school"].string, forKey: "school" )
+        defaults.set(facultyDetails["Name"].string, forKey: "faculty_name" )
+        defaults.set(facultyDetails["Designation"].string, forKey: "faculty_designation" )
+        defaults.set(facultyDetails["Mobile No/Phone No"].string, forKey: "faculty_contact" )
+        defaults.set(facultyDetails["Room No"].string, forKey: "faculty_cabin" )
+        defaults.set(facultyDetails["School"].string, forKey: "faculty_school" )
+        defaults.set(facultyDetails["photo"].string, forKey: "faculty_photo" )
+        defaults.synchronize()
+       
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,24 +55,22 @@ class HomeViewController: UIViewController {
         let refreshURL = uc.refreshURL
         
         
+        
         let parameters = ["regNo": regNo, "psswd": psswd]
         
         Alamofire.request(refreshURL, method: .post, parameters: parameters)
             .responseJSON{ response in
-                if let status = response.response?.statusCode {
-                    switch(status){
-                    case 200:
-                        print("STATUS OK")
-                    case 401:
-                        print("Internal error")
-                    default:
-                        print("Network error")
-                    }
-                    
-                }
+                
                 if let result = response.result.value{
                     let userData = JSON(result)
-                    self.greetingsLabel.text = "Hey " + userData["name"].string! + "! What's up?"
+                    self.storeData(userData: userData)
+                    let defaults = UserDefaults.standard
+                    let firstName = defaults.string(forKey: "name")!.components(separatedBy: " ")[0]
+                    self.greetingsLabel.text = "Hey " + firstName + "! What's up?"
+                    
+                    
+                    
+                    
                 }
                 
                 

@@ -18,6 +18,7 @@
 		CD267CD21E9A57400005DBEF /* URLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CD11E9A57400005DBEF /* URLController.swift */; };
 		CD267CD41E9A662A0005DBEF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CD31E9A662A0005DBEF /* HomeViewController.swift */; };
 		CD267CD71E9A6CF90005DBEF /* VarelaRound-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD267CD61E9A6CF90005DBEF /* VarelaRound-Regular.otf */; };
+		CD267CD91E9A74E40005DBEF /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD267CD81E9A74E40005DBEF /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CD267CD11E9A57400005DBEF /* URLController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLController.swift; sourceTree = "<group>"; };
 		CD267CD31E9A662A0005DBEF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CD267CD61E9A6CF90005DBEF /* VarelaRound-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VarelaRound-Regular.otf"; path = "../../../../Downloads/varela-round/VarelaRound-Regular.otf"; sourceTree = "<group>"; };
+		CD267CD81E9A74E40005DBEF /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				CD267CD61E9A6CF90005DBEF /* VarelaRound-Regular.otf */,
+				CD267CD81E9A74E40005DBEF /* Toast.swift */,
 				CD267CD01E9A55A70005DBEF /* Controllers */,
 				CD267CB91E9A54E90005DBEF /* AppDelegate.swift */,
 				CD267CBB1E9A54E90005DBEF /* ViewController.swift */,
@@ -241,6 +244,7 @@
 				CD267CD21E9A57400005DBEF /* URLController.swift in Sources */,
 				CD267CBA1E9A54E90005DBEF /* AppDelegate.swift in Sources */,
 				CD267CD41E9A662A0005DBEF /* HomeViewController.swift in Sources */,
+				CD267CD91E9A74E40005DBEF /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
